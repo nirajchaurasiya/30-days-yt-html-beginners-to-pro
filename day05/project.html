@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Project on form</title>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter full name" />
+      </div>
+      <div>
+        <label for="fathername">Father's Name</label>
+        <input
+          id="fathername"
+          type="text"
+          placeholder="Enter your fathername"
+        />
+      </div>
+      <div>
+        <label for="mothername">Mother's Name</label>
+        <input
+          id="mothername"
+          type="text"
+          placeholder="Enter your mothername"
+        />
+      </div>
+      <div>
+        <label for="phone">phone</label>
+        <input id="phone" type="number" placeholder="Enter phone number" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input id="email" type="email" placeholder="Enter your email" />
+      </div>
+      <div>
+        <div>Gender:</div>
+        <label for="male">male</label>
+        <input id="male" type="radio" name="gender" />
+        <label for="female">female</label>
+        <input id="female" type="radio" name="gender" />
+        <label for="other">other</label>
+        <input id="other" type="radio" name="gender" />
+      </div>
+
+      <div>
+        <h2>Date of Birth</h2>
+        <input type="text" /><input type="text" /><input type="text" />
+        (dd-mm-yyyy)
+      </div>
+      <div>
+        <label for="address">Address</label>
+        <input
+          type="text"
+          id="address"
+          placeholder="Street    -House    -Road"
+        />
+      </div>
+      <div>
+        <h1>Blood Group!</h1>
+        <select name="blood-group" id="blood-group">
+          <option value="B+">B positive</option>
+          <option value="A+">A positive</option>
+          <option value="O+">O positive</option>
+          <option value="AB+">AB positive</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="c">C</label>
+        <input type="checkbox" name="c" id="c" />
+
+        <label for="c++">C++</label>
+        <input type="checkbox" name="c++" id="c++" />
+
+        <label for="Java">Java</label>
+        <input type="checkbox" name="Java" id="Java" />
+
+        <label for="AI">AI</label>
+        <input type="checkbox" name="AI" id="AI" />
+
+        <label for="ML">ML</label>
+        <input type="checkbox" name="ML" id="ML" />
+
+        <label for="Robotics">Robotics</label>
+        <input type="checkbox" name="Robotics" id="Robotics" />
+      </div>
+
+      <div>
+        <label for="image">Photo:</label>
+        <input type="file" name="image" id="image" />
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

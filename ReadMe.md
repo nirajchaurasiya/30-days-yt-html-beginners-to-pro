@@ -1,0 +1,7 @@
+### HTML FULL COURSE
+
+    WELCOME TO THE LATEST HTML FULL COURSE!
+
+    JOIN THE PLAYLIST
+
+[HTML FULL COURSE LINK](https://www.youtube.com/playlist?list=PLYeR6R4wMO-_Nbz_f6LR9MasUQEPEvuxk)
